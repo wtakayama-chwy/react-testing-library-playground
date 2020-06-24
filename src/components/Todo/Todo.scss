@@ -1,0 +1,52 @@
+hr {
+    width: 40vw;
+    color: lightslategray;
+}
+
+form {
+    display: flex;
+
+    input {
+        padding: 1.2em;
+    }
+
+    button {
+        font-size: 0.8em;
+        padding: 0.4em;
+        background-color: #53ff70;
+        cursor: pointer;
+        color: white;
+        width: max-content;
+        border: thin;
+        border-radius: 0.1em;
+
+        &:hover {
+            background-color: #3bb850;
+        }
+    }
+}
+
+table {
+    width: 40vw;
+    margin-top: 1em;
+
+    .table-head {
+        justify-content: center;
+    }
+
+    .border {
+        border-bottom: 1px solid lightslategray;
+        padding: 0.4em;
+        width: inherit;
+    }
+
+    .table-data {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    td {
+        font-size: 1rem;
+        font-weight: lighter;
+    }
+}

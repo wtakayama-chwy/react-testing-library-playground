@@ -1,0 +1,23 @@
+.counter-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    button {
+        font-size: 1em;
+        background-color: #537bff;
+        cursor: pointer;
+        color: white;
+        width: 80px;
+        border: thin;
+        border-radius: 0.1em;
+
+        &:hover {
+            background-color: #314ba1;
+        }
+    }
+
+    h3 {
+        margin: 1em;
+    }
+}
