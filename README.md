@@ -1,44 +1,52 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3 align="center">
+    <img alt="Logo" title="#logo" width="300px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTFjvGvct9sJbM7bw3tjOYMRJPpMkBNSwbidg&usqp=CAU">
+    <br><br>
+    <b>React Testing Library with Typescript</b>  
+    <br>
+</h3>
 
-## Available Scripts
+<p align="center">
+  <a href="https://beyoung.com.br">
+    <img alt="Made with React" src="https://img.shields.io/badge/created%20with-React-blue?style=for-the-badge&logo=react">
+  </a>
+  <a href="https://testing-library.com/docs/react-testing-library/intro">
+    <img alt="react-testing-library" src="https://img.shields.io/badge/tested-react--testing--library-lightgray?style=for-the-badge&logo=jest">
+  </a>
+</p>
 
-In the project directory, you can run:
+## :triangular_flag_on_post: What is it? 
+  Just having a little bit of fun while learning more about react-testing-library using Jest and TypeScript! I've also made tests using a custom (simple one) react-hooks!
+  
+## :fireworks: Developing Tools: 
+  - React v.16.13.1 with React Hooks (Frontend)
+  - Typescript
+  - Lint
+  - SASS for styling
+  - React Icons for icons
+  - VSCode (Editor)
+  - Firefox Devtools
 
-### `yarn start`
+## :rocket: Goal:
+  Solidify my knowlodge using tests while using react-testing-library
+  
+## :chart_with_upwards_trend: What I've learned or improved on my knowledge: 
+  - How to create a custom Hook and tested it
+  - Testing two simple components with its own functionalities
+  - Good practices while using data-testid
+  - Use afterEach(cleanup) to clean the component and render it again
+  - How to use fireEvent in input elements and buttons
+  - The importance to use async function while using waitForElement
+  - Trying some different "expects"
+  
+## :feet: How to clone or run?
+  - Download the zip or clone using github
+  - In the main folder run in your command line ``` npm start ```
+  - Then run tests using ``` npm run test ```
+ 
+## :metal: Contributions
+Pull requests are always welcomed. For major alterations please think about openning an issue first.
+Any improvments advices would be great, don't hesitate on contacting me :smile:
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## License
+- Project 100% solo 
+- MIT License - Copyright (c) 2020 william-takayama
